@@ -1,5 +1,5 @@
 
-resource "newrelic_service_level" "foo" {
+resource "newrelic_service_level" "service_level01" {
   guid        = var.service_level_config.guid
   name        = var.service_level_config.name
   description = var.service_level_config.description
